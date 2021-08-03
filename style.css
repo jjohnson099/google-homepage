@@ -1,0 +1,89 @@
+body{
+    font-size: 14px;
+    font-family: Roboto,arial,sans-serif;
+} 
+
+a{
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 14px;
+ }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ li{
+    display: inline-block;
+}
+.link1{
+    float: top left;
+}
+.link2{
+  
+float: right;
+}
+
+img{
+    display: block;
+    margin: 05% auto;
+    width: 20%;
+}
+
+input{
+    width: 34%;
+    background-image:  url('https://www.w3schools.com/css/searchicon.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    background-size: 3%; 
+    padding-left: 40px;
+   
+    display: block;
+    margin: 05% auto;
+    border-radius: 20px;
+    outline: none;
+    height: 34px;
+    border:1px solid rgb(221, 219, 219);
+}
+.btn{
+    font-family: Roboto, arial, sans-serif;
+    display: inline-block;
+    margin: 0 40%;
+    
+}
+button{
+    border-radius: 10px;;
+    font-family: Roboto, arial, sans-serif;
+    padding: 10px;
+    background-color: #f8f9fa;;
+    border: #f8f9fa;
+    cursor: pointer;
+}
+footer{
+position: absolute;
+bottom: 0;
+left: -.5px;
+align-items: center;
+justify-content: center   ;
+background-color: rgb(238, 232, 232);
+height: 50px;
+width: 100%;
+margin-bottom: -5px;
+}
+.link3 {
+    float: left;
+    margin-bottom: -5px;
+    padding-top: 10px;
+}
+.link4 {
+    float: right  ;
+    padding-top: 10px;
+} 
+.link3 a{
+color: rgb(148, 144, 144);
+}
+.link4 a{
+    color: rgb(148, 144, 144);
+    }
